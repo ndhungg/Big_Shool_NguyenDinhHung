@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Globalization;
 
 namespace BigSchool_NguyenDinhHung.ViewModels
 {
@@ -31,7 +32,7 @@ namespace BigSchool_NguyenDinhHung.ViewModels
 
         public DateTime GetDateTime()
         {
-            return DateTime.Parse(string.Format("{0}", "{1}", Date, Time));
+            return DateTime.Parse(string.Format("{0} {1}", Date, Time));
         }
     }
 }

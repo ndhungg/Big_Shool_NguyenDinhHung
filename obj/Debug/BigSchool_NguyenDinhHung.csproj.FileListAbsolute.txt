@@ -110,3 +110,4 @@ C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\obj\Debug\BigSchool_Nguyen
 C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\obj\Debug\BigSchool_NguyenDinhHung.csproj.GenerateResource.cache
 C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\obj\Debug\BigSchool_NguyenDinhHung.Migrations.CreateTableCourse.resources
 C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\obj\Debug\BigSchool_NguyenDinhHung.Migrations.PopulateCategoryTable.resources
+C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\obj\Debug\BigSchool_NguyenDinhHung.Migrations.AddNameColumnToApplicationUser.resources

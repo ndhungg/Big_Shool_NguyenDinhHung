@@ -11,13 +11,11 @@ namespace BigSchool_NguyenDinhHung.Models
     {
         public int Id { get; set; }
 
-        [Required (ErrorMessage ="Tên giảng viên không được để trống")]
-        [StringLength(255, ErrorMessage ="Tên giảng viên không được dài quá 255 ký tự")]
-        [Display (Name= "Tên giảng viên")]
         public ApplicationUser Lecturer { get; set; }
 
         [Required]
         [StringLength(255, ErrorMessage ="Mã giảng viên không được dài quá 255 ký tự")]
+       
         [Display(Name = "Mã giảng viên")]
         public string LecturerId { get; set; }
 

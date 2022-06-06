@@ -1,6 +1,7 @@
 ﻿using BigSchool_NguyenDinhHung.Models;
 using BigSchool_NguyenDinhHung.ViewModels;
 using Microsoft.AspNet.Identity;
+using System.Data.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,12 +23,12 @@ namespace BigSchool_NguyenDinhHung.Controllers
         [Authorize]
         public ActionResult Create()
         {
-            var ViewModel = new CourseViewModel
+            var viewModel = new CourseViewModel
             {
                 Categories = _dbContext.Categories.ToList()
             };
 
-            return View(ViewModel);
+            return View(viewModel);
         }
         
 
@@ -49,8 +50,10 @@ namespace BigSchool_NguyenDinhHung.Controllers
                 CategoryId = viewModel.Category,
                 Place = viewModel.Place
             };
+
             _dbContext.Courses.Add(course);
             _dbContext.SaveChanges();
+
             return RedirectToAction("Index", "Home");
         }
     }
