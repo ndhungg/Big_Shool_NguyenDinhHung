@@ -20,14 +20,25 @@ namespace BigSchool_NguyenDinhHung.Controllers
 
         public ActionResult Index()
         {
-            var upcommingCourse = _dbContext.Courses
+            var upcomingCourses = _dbContext.Courses
                 .Include(c => c.Lecturer)
                 .Include(c => c.Category)
                 .Where(c => c.DateTime > DateTime.Now);
-                return View(upcommingCourse);
+            return View(upcomingCourses);
         }
 
-     
-      
+        public ActionResult About()
+        {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }

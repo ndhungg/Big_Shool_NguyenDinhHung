@@ -1,5 +1,4 @@
-﻿using Microsoft.Build.Framework.XamlTypes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -15,10 +14,11 @@ namespace BigSchool_NguyenDinhHung.Models
 
         [Required]
         [StringLength(255, ErrorMessage ="Mã giảng viên không được dài quá 255 ký tự")]
-       
         [Display(Name = "Mã giảng viên")]
         public string LecturerId { get; set; }
 
+        [Required]
+        [StringLength(255)]
         public string Place { get; set; }
         public DateTime DateTime { get; set; }
         public Category Category { get; set; }
@@ -29,3 +29,4 @@ namespace BigSchool_NguyenDinhHung.Models
 
     }
 }
+
