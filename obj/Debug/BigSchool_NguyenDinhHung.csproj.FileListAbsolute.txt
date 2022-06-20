@@ -111,3 +111,11 @@ C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\obj\Debug\BigSchool_Nguyen
 C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\obj\Debug\BigSchool_NguyenDinhHung.Migrations.CreateTableCourse.resources
 C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\obj\Debug\BigSchool_NguyenDinhHung.Migrations.PopulateCategoryTable.resources
 C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\obj\Debug\BigSchool_NguyenDinhHung.Migrations.AddNameColumnToApplicationUser.resources
+C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\obj\Debug\BigSchool_NguyenDinhHung.Migrations.AddAttendance.resources
+C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\bin\System.Net.Http.Formatting.dll
+C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\bin\System.Web.Http.dll
+C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\bin\System.Web.Http.WebHost.dll
+C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\bin\System.Net.Http.Formatting.xml
+C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\bin\System.Web.Http.xml
+C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\bin\System.Web.Http.WebHost.xml
+C:\Users\DELL\Desktop\Tuan03\BigSchool_NguyenDinhHung\obj\Debug\BigSchool_NguyenDinhHung.Migrations.addFollowingsTable.resources
